@@ -1,0 +1,18 @@
+#include：<stdio.h>
+
+main( )
+{
+    int fahr,celsius;
+    int lower,upper,step;
+
+    lower=0;
+    upper=100;
+    step=5;
+
+    fahr=lower;
+    while(fahe<=upper){
+        celsius=5*(fahr-32)/9;
+        prinef("%d\t%d\n",fahr,celsius);
+        fahr=fahr+step;
+    }
+}
